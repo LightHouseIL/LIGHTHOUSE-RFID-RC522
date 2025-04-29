@@ -1,7 +1,7 @@
 /**
   * MFRC522 Block
   */
-//% color="#275C6B" weight=100 icon="\uf2bb" block="MFRC522 RFID"
+//% color="#f2f25c" weight=100 icon="\uf2bb" block="LIGHTHOUSE RFID"
 namespace MFRC522 {
     let Type2=0
     const BlockAdr: number[] = [8, 9, 10]
@@ -413,7 +413,7 @@ namespace MFRC522 {
     /*
      * Initial setup
      */
-    //% block="Initialize MFRC522 Module"
+    //% block="Initialize Module"
     //% weight=100
    export function Init() {
        pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
